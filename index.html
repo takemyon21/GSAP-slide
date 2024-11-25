@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet" />
+    <title>スライダー テスト</title>
+  </head>
+  <body>
+    <section class="swiper-test__section">
+      <div class="swiper-test__inner">
+        <h1 class="swiper-test__title">スライダーテスト</h1>
+        <!-- overlapping-slider -->
+        <h2 class="overlapping-swiper__title swiper__title">重なりのあるスライド</h2>
+
+        <!-- 重なりのあるスライド -->
+        <div class="overlapping-slider__wrapper">
+          <!-- 表示スライドはここで実装。 -->
+          <div class="overlapping-slider__card">
+            <img src="./images/slide1_wide.jpg" alt="スライド1" width="640" height="480" />
+          </div>
+          <div class="overlapping-slider__card">
+            <img src="./images/slide2_wide.jpg" alt="スライド2" width="640" height="480" />
+          </div>
+          <div class="overlapping-slider__card">
+            <img src="./images/slide3_wide.jpg" alt="スライド3" width="640" height="480" />
+          </div>
+          <div class="overlapping-slider__card">
+            <img src="./images/slide4_wide.jpg" alt="スライド4" width="640" height="480" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script src="./js/script.js" defer></script>
+  </body>
+</html>
